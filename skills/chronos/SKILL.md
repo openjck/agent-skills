@@ -1,8 +1,8 @@
 ---
 name: chronos
 description: >-
-  When asked to create an ICS file for one or more events, respond with a valid
-  ICS file for the event(s) the user provides information about.
+  Help the user add one or more events to their digital calendar by responding
+  with a valid ICS file for the event(s) the user provides information about.
 license: Complete terms in LICENSE
 ---
 
