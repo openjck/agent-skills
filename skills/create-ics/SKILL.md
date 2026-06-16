@@ -52,10 +52,10 @@ find...
   the description.
 
 - contains a natural language description of the location but no GPS
-  coordinates: In the "Location" of the event, please put some written, precise
-  form of the location that would be likely to get the user to their precise
-  definition if there were to copy and paste that value into Google Maps or a
-  similar mapping tool.
+  coordinates: In the "Location" of the event, put some written, precise form of
+  the location that would be likely to get the user to their precise definition
+  if there were to copy and paste that value into Google Maps or a similar
+  mapping tool.
 
 - contains neither GPS coordinates nor a natural language description of the
   location: Please leave the "Location" blank and explain at the beginning of
@@ -70,37 +70,36 @@ that, you can assume it's going to take place on December 10, 2025.
 
 #### Photographs
 
-If a photograph is provided to you, please use your best judgement in
-determining which information the user probably intended to photograph.
-Information which appears in the background or periphery of the photo is
-probably information they did not intend to capture, and it can probably be
-ignored. Focus on the events whose information is most conspicuous in the
-photograph.
+If a photograph is provided to you, use your best judgement in determining which
+information the user probably intended to photograph. Information which appears
+in the background or periphery of the photo is probably information they did not
+intend to capture, and it can probably be ignored. Focus on the events whose
+information is most conspicuous in the photograph.
 
 #### Uncertain details
 
 ##### Uncertain details that can be gleaned from context
 
-If some important information is not provided, (e.g., city, timezone, etc.),
-please try to infer that information from the information provided and anything
-else you know about the user.
+If some important information is not provided, (e.g., city, timezone, etc.), try
+to infer that information from the information provided and anything else you
+know about the user.
 
 ##### Uncertain details that the user may know the answer to
 
 If the user would be very likely to know the answer to some uncertain details,
-please do not produce the ICS file at first. Instead, first ask the user about
-those things. Then, once the user has provided that information in natural
-language, please use the information and continue as you otherwise would,
-ultimately responding with the ICS file.
+do not produce the ICS file at first. Instead, first ask the user about those
+things. Then, once the user has provided that information in natural language,
+use the information and continue as you otherwise would, ultimately responding
+with the ICS file.
 
 ##### Uncertain details that the user may not know the answer to
 
 If the start date, start time, end date, end time, or any other important
 information is unavailable or unclear from the information the user has provided
 and anything else you know about the user, and you think they would not know
-that information either, please make an educated guess, and begin the title of
-the event with an asterisk in square brackets. At the end of the event's
-description, please explain what you guessed in a paragraph that begins with an
+that information either, make an educated guess, and begin the title of the
+event with an asterisk in square brackets. At the end of the event's
+description, explain what you guessed in a paragraph that begins with an
 asterisk, like a footnote.
 
 For example, the event might have a title like "[*] The Cure tribute concert"
