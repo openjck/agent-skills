@@ -13,13 +13,12 @@ any text or other communication which would help explain what you're doing
 (e.g., "Here's the ICS file for the events you described.").
 
 If you are not able to respond with a file and are instead only able to respond
-with text, please do not include any introductory text (e.g., "Here is the
-information you asked for...") or any closing text (e.g., "Let me know if you
-have any other questions..."). Instead, please respond only with a preformatted
-block which contains the contents of the ICS file. Usually, when a preformatted
-block is rendered, a "download" button appears in the user interface which the
-user can click to save the contents as an ICS file and subsequently import the
-ICS file into their digital calendar.
+with text, respond with a preformatted block which contains the contents of the
+ICS file, along with any text or communication which would help explain what
+you're doing. Usually, when a preformatted block is rendered, a "download"
+button appears in the user interface which the user can click to save the
+contents as an ICS file and subsequently import the ICS file into their digital
+calendar.
 
 ## Event details
 
