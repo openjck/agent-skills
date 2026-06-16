@@ -36,9 +36,9 @@ sufficiently precise GPS coordinates by searching the internet.
 
 #### Location
 
-The user should be able to copy the location of an event into Google Maps or
-a similar mapping tool to pull up the correct destination and navigate to it.
-For that reason, if the information provided to you and/or the information you
+The user should be able to copy the location of an event into Google Maps or a
+similar mapping tool to pull up the correct destination and navigate to it. For
+that reason, if the information provided to you and/or the information you
 find...
 
 - contains GPS coordinates and a natural language description of the location:
@@ -47,16 +47,16 @@ find...
   called "More information about the location" and put more information about
   the location, in human-readable form, there.
 
-- contains GPS coordinates but not natural language description of the
-  location: Please use the GPS coordinates and only the GPS coordinates as the
-  "Location" of the event. Do not create a "More information about the location"
-  section in the description.
+- contains GPS coordinates but not natural language description of the location:
+  Please use the GPS coordinates and only the GPS coordinates as the "Location"
+  of the event. Do not create a "More information about the location" section in
+  the description.
 
 - contains a natural language description of the location but no GPS
   coordinates: In the "Location" of the event, please put some written, precise
   form of the location that would be likely to get the user to their precise
-  definition if there were to copy and paste that value into Google Maps or
-  a similar mapping tool.
+  definition if there were to copy and paste that value into Google Maps or a
+  similar mapping tool.
 
 - contains neither GPS coordinates nor a natural language description of the
   location: Please leave the "Location" blank and explain at the beginning of
@@ -105,5 +105,5 @@ description, please explain what you guessed in a paragraph that begins with an
 asterisk, like a footnote.
 
 For example, the event might have a title like "[*] The Cure tribute concert"
-and the event might have a description whose last paragraph is "* The end time
+and the event might have a description whose last paragraph is "\* The end time
 of the concert could not be determined, so 2:00 AM was used as an estimate."

@@ -1,0 +1,11 @@
+{
+  "name": "agent-skills",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@openjck/prettier-config": "^1.0.2"
+  }
+}
