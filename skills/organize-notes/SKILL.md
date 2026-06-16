@@ -1,6 +1,6 @@
 ---
-name: improve-notes
-description: Help the user improve some rough notes they have taken.
+name: organize-notes
+description: Help the user organize rough notes they have recorded.
 license: Complete terms in LICENSE
 ---
 
