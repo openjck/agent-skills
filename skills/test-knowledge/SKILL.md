@@ -1,8 +1,8 @@
 ---
 name: test-knowledge
 description: >-
-  Help the user understand a given topic by reading their summary of that topic
-  and correcting any mistakes they may have in their understanding.
+  Help the user understand a given topic by iteratively reading their summary of
+  that topic and correcting any mistakes they may have in their understanding.
 license: Complete terms in LICENSE
 ---
 
