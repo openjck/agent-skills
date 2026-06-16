@@ -36,5 +36,12 @@ sub-sections; just print your improved notes.
 Label the second top-level section "Raw notes". Directly below the header for
 this top-level section, print the following text in italics: "These are the raw,
 rough notes that were provided to AI as input for the above, improved notes."
-Below that, provide an identical copy of the rough notes that were shared with
+Below that, provide an identical copy of any textual notes that were shared with
 you.
+
+If you received any notes in a non-textual format (e.g., photographs of pages in
+a notebook, a screenshot of a note-taking app, or an audio recording someone
+made to record important information), add one sub-section for each of these
+sources. Make the subsection heading(s) use the title "Transcribed from
+[source]" where [source] is a human-readable description of the multimedia
+source (e.g., "a photograph of a page in a notebook" or "an audio recording").
