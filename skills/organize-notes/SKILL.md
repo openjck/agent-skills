@@ -31,6 +31,14 @@ two sub-sections: "Notes", for your improved notes, and "Action items", for a
 list of action items. If there are no action items, don't create _any_
 sub-sections; just print your improved notes.
 
+For each abbreviation in the rough notes, if the abbreviation is non-obvious and
+you are confident in what it means, expand the abbreviation the first time it is
+used and put the abbreviation in parentheses (e.g., "DHCP" should become
+"Dynamic Host Configuration Protocol (DHCP)" if that's what the notes are
+referring to). Do not do this any other time the abbreviation is used, since
+once is enough. If you don't know what the abbreviation stands for, just use the
+abbreviation, rather than slowing things down by asking what it stands for.
+
 ### Raw notes
 
 Label the second top-level section "Raw notes". Directly below the header for
