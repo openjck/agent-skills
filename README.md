@@ -5,7 +5,7 @@ others.
 
 To install any of these skills for use with Claude, choose one from the list
 below, then follow Anthropic's
-[Add and use custom skills](https://support.claude.com/en/articles/12512180-use-skills-in-claude#h_a4222fa77b)
+["Add and use custom skills"](https://support.claude.com/en/articles/12512180-use-skills-in-claude#h_a4222fa77b)
 documentation. Although their documentation states that you must upload a ZIP
 file of your chosen skill folder, if the skill folder contains only a _SKILL.md_
 file, you may directly upload that and only that, and the skill will be
