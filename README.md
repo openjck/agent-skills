@@ -18,8 +18,8 @@ documentation.
 
 The following skills are provided by this project:
 
-| Skill                                     | Description                                                                                                                                                 |
-| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [create-ics](./skills/create-ics)         | Help the user add one or more events to their digital calendar by responding with a valid ICS file for the event(s) the user provides information about.    |
-| [organize-notes](./skills/organize-notes) | Help the user organize rough notes they have recorded.                                                                                                      |
-| [test-knowledge](./skills/test-knowledge) | Help the user understand a given topic by iteratively reading their summary of that topic and correcting any mistakes they may have in their understanding. |
+| Skill                                     | Description                                                                                                                                                                                                                                               |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [create-ics](./skills/create-ics)         | Help add one or more events to a digital calendar by providing a valic ICS file for the event(s) that are described.                                                                                                                                      |
+| [organize-notes](./skills/organize-notes) | Rewrite and reorganize rough notes, highlighting any action items.                                                                                                                                                                                        |
+| [test-knowledge](./skills/test-knowledge) | Help one improve their understanding of a topic by reading their summary of the topic, correcting any mistakes in their understanding, encouraging them to write a new summary, and repeating this process until they provide a summary that is accurate. |

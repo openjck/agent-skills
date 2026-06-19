@@ -1,6 +1,6 @@
 ---
 name: organize-notes
-description: Help the user organize rough notes they have recorded.
+description: Rewrite and reorganize rough notes, highlighting any action items.
 license: Complete terms in LICENSE
 ---
 
