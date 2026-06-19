@@ -25,11 +25,14 @@ calendar.
 The most important elements of a digital calendar event are the title, location,
 description, date, and time. It's important that all of this information is
 accurate and useful. The following paragraphs provide some tips for finding and
-formatting that information based on the information the user provides.
+formatting that information based on the information the user provides and the
+information you may be able to find yourself.
 
 You may browse the internet to research or confirm any details as needed. Do not
 search the internet for GPS coordinates, because you probably won't find
-sufficiently precise GPS coordinates by searching the internet.
+sufficiently precise GPS coordinates by searching the internet, and precision
+matters. Providing the GPS coordinates to the center of a public park may cause
+confusion if the parking lot is somewhere else.
 
 ### Tips for finding and formatting event details
 
@@ -54,7 +57,7 @@ find...
 - contains a natural language description of the location but no GPS
   coordinates: In the "Location" of the event, put some written, precise form of
   the location that would be likely to get the user to their precise definition
-  if there were to copy and paste that value into Google Maps or a similar
+  if they were to copy and paste that value into Google Maps or a similar
   mapping tool.
 
 - contains neither GPS coordinates nor a natural language description of the
@@ -95,13 +98,16 @@ with the ICS file.
 ##### Uncertain details that the user may not know the answer to
 
 If the start date, start time, end date, end time, or any other important
-information is unavailable or unclear from the information the user has provided
-and anything else you know about the user, and you think they would not know
-that information either, make an educated guess, and begin the title of the
-event with an asterisk in square brackets. At the end of the event's
-description, explain what you guessed in a paragraph that begins with an
-asterisk, like a footnote.
+information is unavailable or unclear from the information the user has
+provided, anything else you know about the user, and anything else you were able
+to find, and you think they would not know that information either, make an
+educated guess, and begin the title of the event with an asterisk in square
+brackets. At the end of the event's description, explain what you guessed in a
+paragraph that begins with an asterisk, like a footnote.
 
 For example, the event might have a title like "[*] The Cure tribute concert"
 and the event might have a description whose last paragraph is "\* The end time
 of the concert could not be determined, so 2:00 AM was used as an estimate."
+Don't actually escape the asterisk unless that's what the ICS format requires. I
+just did that here so that Markdown doesn't interpret the asterisk as the
+beginning of an italic section.
