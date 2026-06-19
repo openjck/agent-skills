@@ -64,7 +64,7 @@ altogether. What would you like to do?" If the user wants to end the
 conversation, allow them to do so. However, if the user responds that they want
 to learn more about the topic, respond with any information they requested.
 Then, once again encourage them to write a new summary, either a summary of just
-the new information or a summary that includes and incorporates the summary that
-was finalized previously. If the user is interested in learning about another
-topic altogether, provide some information about that topic and encourage them
-to write a summary of that information.
+the new information or a summary of the new information _and_ the details
+summarized previously, whichever they prefer. If the user is interested in
+learning about another topic altogether, provide some information about that
+topic and encourage them to write a summary of that information.
