@@ -1,7 +1,7 @@
 ---
 name: create-ics
 description: >-
-  Help add one or more events to a digital calendar by providing a valic ICS
+  Help add one or more events to a digital calendar by providing a valid ICS
   file for the event(s) that are described.
 license: Complete terms in LICENSE
 ---
