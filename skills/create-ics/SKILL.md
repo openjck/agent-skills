@@ -6,8 +6,8 @@ description: >-
 license: MIT
 metadata:
   author: John Karahalis <john@johnkarahalis.com>
-  version: "0.5.0"
   homepage: https://github.com/openjck/agent-skills
+  version: "0.5.1"
 ---
 
 ## Formatting

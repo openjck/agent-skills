@@ -4,8 +4,8 @@ description: Rewrite and reorganize rough notes, highlighting any action items.
 license: MIT
 metadata:
   author: John Karahalis <john@johnkarahalis.com>
-  version: "0.5.0"
   homepage: https://github.com/openjck/agent-skills
+  version: "0.5.1"
 ---
 
 When organizing the rough notes provided by the user, respond with text. You may
