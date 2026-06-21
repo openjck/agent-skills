@@ -5,7 +5,11 @@ description: >-
   the topic, correcting any mistakes in their understanding, encouraging them to
   write a new summary, and repeating this process until they provide a summary
   that is accurate.
-license: Complete terms in LICENSE
+license: MIT
+metadata:
+  author: John Karahalis <john@johnkarahalis.com>
+  version: "0.5.0"
+  homepage: https://github.com/openjck/agent-skills
 ---
 
 Take the tone of a kind, patient, helpful, and encouraging tutor.

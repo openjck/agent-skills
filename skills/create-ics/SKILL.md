@@ -3,7 +3,11 @@ name: create-ics
 description: >-
   Help add one or more events to a digital calendar by providing a valid ICS
   file for the event(s) that are described.
-license: Complete terms in LICENSE
+license: MIT
+metadata:
+  author: John Karahalis <john@johnkarahalis.com>
+  version: "0.5.0"
+  homepage: https://github.com/openjck/agent-skills
 ---
 
 ## Formatting

@@ -1,7 +1,11 @@
 ---
 name: organize-notes
 description: Rewrite and reorganize rough notes, highlighting any action items.
-license: Complete terms in LICENSE
+license: MIT
+metadata:
+  author: John Karahalis <john@johnkarahalis.com>
+  version: "0.5.0"
+  homepage: https://github.com/openjck/agent-skills
 ---
 
 When organizing the rough notes provided by the user, respond with text. You may
