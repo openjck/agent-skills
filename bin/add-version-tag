@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+
+# Use Bash's unofficial "strict mode."
+#
+# http://redsymbol.net/articles/unofficial-bash-strict-mode/
+set -o errexit
+set -o nounset
+set -o pipefail
+IFS=$'\n\t'
+
+LATEST_COMMIT_ID=$(git rev-parse HEAD)
+
+# The name of the skill (e.g., create-ics).
+SKILL=$1
+
+# The version number of a skill, without the "v" prefix (e.g., 0.5.0).
+VERSION=$2
+
+# The commit ID (a.k.a. SHA) of the commit that should be tagged. Omit to tag
+# the most recent commit.
+COMMIT_ID=${3:-$LATEST_COMMIT_ID}
+
+# https://stackoverflow.com/a/246128/715866
+SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &> /dev/null && pwd)
+
+SKILL_EXISTS=false
+
+for DIRECTORY in "$SCRIPT_DIR"/../skills/*; do
+  EXISTING_SKILL=$(basename "$DIRECTORY")
+  if [[ $SKILL == "$EXISTING_SKILL" ]]; then
+    SKILL_EXISTS=true
+  fi
+done
+
+if [[ $SKILL_EXISTS = false ]]; then
+  echo >&2 "FATAL ERROR: No published skill named \"$SKILL\"."
+  exit 1
+fi
+
+git tag "$SKILL-v$VERSION" "$COMMIT_ID" --message "[$SKILL] v$VERSION"
